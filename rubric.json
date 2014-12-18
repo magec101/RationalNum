@@ -1,0 +1,51 @@
+{
+    "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "1",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "A 1 2 1 2",
+                    "output": "4,4",
+                    "type": "CLI"
+                },
+                "score": "",
+                "visible": "all"
+            },
+            {
+                "checkName": "2",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "D\n5\n9\n9\n5",
+                    "output": "25,81",
+                    "type": "STDIN"
+                },
+                "score": "",
+                "visible": "all"
+            }
+        ],
+        "system": [
+            {
+                "checkName": "Compilation",
+                "checkType": "compile",
+                "group": "system",
+                "penalty": "",
+                "rule": {
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "0",
+                "visible": "eval"
+            }
+        ]
+    },
+    "weightage": {
+        "blackboxtests": "undefined",
+        "system": "100"
+    },
+    "lastSaved": "20141218 175757"
+}
