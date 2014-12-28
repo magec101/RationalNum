@@ -1,0 +1,3 @@
+Write a program to compute the sum, difference, product, division of two rational numbers.
+The program takes 5 inputs, namely: Operation to be performed, Numerator of the first rational number, Denominator of the first rational number,
+Numerator of the second rational number, Denominator of the second rational number.
